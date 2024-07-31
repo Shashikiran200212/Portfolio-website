@@ -110,7 +110,7 @@ export const projects = [
     title: "Nothing",
     des: "A minimalist website designed to highlight the elegance of simplicity, built with React, Next.js, Tailwind CSS and hosted on Vercel ",
     img: "/nh.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "vercel.png", "next.svg", "figma.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "acternity.png", "/ts.svg", "vercel.png", "next.svg", "figma.svg"],
     link: "https://nothing-pi.vercel.app/",
   },
 
@@ -119,7 +119,7 @@ export const projects = [
     title: "Hype N Harmony",
     des: "Hype N Harmony is a leading event management company specializing in crafting unforgettable experiences. I designed a minimalist yet elegant website to showcase their services and expertise. The site features a clean user interface with intuitive navigation and responsive design, ensuring a seamless experience across all devices.",
     img: "/hnh.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "vercel.png", "next.svg", "figma.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "vercel.png", "next.svg", "figma.svg", "acternity.png", "emailjs.png"],
     link: "https://hype-n-harmony-events.vercel.app/",
   },
 ];

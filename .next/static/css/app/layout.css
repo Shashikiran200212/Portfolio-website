@@ -2521,10 +2521,6 @@ video {
 
 @media (min-width: 768px) {
 
-  .md\:visible {
-    visibility: visible;
-  }
-
   .md\:-left-32 {
     left: -8rem;
   }
@@ -2790,12 +2786,5 @@ video {
 
   .lg\:font-normal {
     font-weight: 400;
-  }
-}
-
-@media (min-width: 1280px) {
-
-  .xl\:visible {
-    visibility: visible;
   }
 }
