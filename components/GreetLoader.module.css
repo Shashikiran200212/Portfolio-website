@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,300..700;1,300..700&display=swap');
-
 .container {
   background-color: rgb(0, 3, 25);
   color: white;
@@ -21,9 +19,10 @@
   position: relative;
   font-size: 6em; /* Default size */
   width: 100%;
-  height: 1em; /* Adjust height to fit the text */
+  height: auto; /* Adjust height based on content */
   display: flex;
   justify-content: center;
+  align-items: center; /* Ensure vertical alignment */
 }
 
 .helloLanguages li {
@@ -32,18 +31,18 @@
   opacity: 0;
   animation: slideInOut 3s linear forwards;
   font-weight: 300;
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  -webkit-background-clip: text; /* For WebKit browsers */
+  background-clip: text; /* For other browsers */
+  color: transparent; /* Make text color transparent so gradient shows */
+  display: inline-block;
 }
 
-.helloLanguages li:nth-child(1) { animation-delay: 0s; }
-.helloLanguages li:nth-child(2) { animation-delay: 3s; }
-.helloLanguages li:nth-child(3) { animation-delay: 6s; }
-.helloLanguages li:nth-child(4) { animation-delay: 9s; }
-.helloLanguages li:nth-child(5) { animation-delay: 12s; }
-
+/* Animation Keyframes */
 @keyframes slideInOut {
   0% { transform: translateY(100%); opacity: 0; }
   10% { transform: translateY(0); opacity: 0; }
-  20% { transform: translateY(0); opacity: 1; }
+  0% { transform: translateY(0); opacity: 1; }
   30% { transform: translateY(-100%); opacity: 0; }
   100% { transform: translateY(-100%); opacity: 0; }
 }

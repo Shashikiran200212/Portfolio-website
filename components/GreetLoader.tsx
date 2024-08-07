@@ -1,21 +1,18 @@
-import React from 'react';
-import styles from './GreetLoader.module.css';
+import styles from './GreetLoader.module.css'; // Adjust the path as needed
 
-
-const GreetLoader = () => {
+const HelloLanguages = () => {
   return (
-    
     <div className={styles.container}>
       <ul className={styles.helloLanguages}>
         <li style={{ animationDelay: '0s' }}>Hello</li>
-        <li style={{ animationDelay: '0.5s' }}>¡Hola!</li>
-        <li style={{ animationDelay: '1s' }}>Bonjour</li>
-        <li style={{ animationDelay: '1.5s' }}>నమస్తే</li>
-        <li style={{ animationDelay: '2s' }}>नमस्ते</li> 
-        <li style={{ animationDelay: '2.5s' }}>你 好</li>
+        <li style={{ animationDelay: '0.4s' }}>¡Hola!</li>
+        <li style={{ animationDelay: '0.8s' }}>Bonjour</li>
+        <li style={{ animationDelay: '1.2s' }}>నమస్తే</li>
+        <li style={{ animationDelay: '1.6s' }}>नमस्ते</li>
+        <li style={{ animationDelay: '2.0s' }}>你好</li> {/* Fixed spacing */}
       </ul>
     </div>
   );
 };
 
-export default GreetLoader;
+export default HelloLanguages;
