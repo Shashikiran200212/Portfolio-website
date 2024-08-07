@@ -19,7 +19,7 @@ export default function Home() {
     // Set a timer to hide the loader after the animation completes
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 800); // 5 languages * 3s each = 15s
+    }, 1000); // 5 languages * 3s each = 15s
 
     // Clean up the timer if the component unmounts
     return () => clearTimeout(timer);
