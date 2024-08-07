@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+
+.container {
+  background-color: rgb(0, 3, 25);
+  color: white;
+  font-family: "Familjen Grotesk", Arial, sans-serif;
+  font-weight: 300; 
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+.helloLanguages {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-size: 6em; /* Default size */
+  width: 100%;
+  height: 1em; /* Adjust height to fit the text */
+  display: flex;
+  justify-content: center;
+}
+
+.helloLanguages li {
+  margin: 0;
+  position: absolute;
+  opacity: 0;
+  animation: slideInOut 3s infinite;
+  font-weight: 300; 
+}
+
+@keyframes slideInOut {
+  0% { transform: translateY(100%); opacity: 0; }
+  10% { transform: translateY(0); opacity: 0; }
+  20% { transform: translateY(0); opacity: 1; }
+  30% { transform: translateY(-100%); opacity: 0; }
+  100% { transform: translateY(-100%); opacity: 0; }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .helloLanguages {
+    font-size: 5em;
+  }
+}
+
+@media (max-width: 992px) {
+  .helloLanguages {
+    font-size: 4em;
+  }
+}
+
+@media (max-width: 768px) {
+  .helloLanguages {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 576px) {
+  .helloLanguages {
+    font-size: 3em;
+  }
+}
