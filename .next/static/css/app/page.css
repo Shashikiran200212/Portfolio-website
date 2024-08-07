@@ -1,14 +1,14 @@
 /*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./components/GreetLoader.module.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************/
-@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,300..700;1,300..700&display=swap');
 
 .GreetLoader_container__BtWrw {
   background-color: rgb(0, 3, 25);
   color: white;
   font-family: "Familjen Grotesk", Arial, sans-serif;
-  font-weight: 300; 
-  
+  font-weight: 300;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,9 +33,15 @@
   margin: 0;
   position: absolute;
   opacity: 0;
-  animation: GreetLoader_slideInOut__PcHdV 3s infinite;
-  font-weight: 300; 
+  animation: GreetLoader_slideInOut__PcHdV 3s linear forwards;
+  font-weight: 300;
 }
+
+.GreetLoader_helloLanguages___Z4ck li:nth-child(1) { animation-delay: 0s; }
+.GreetLoader_helloLanguages___Z4ck li:nth-child(2) { animation-delay: 3s; }
+.GreetLoader_helloLanguages___Z4ck li:nth-child(3) { animation-delay: 6s; }
+.GreetLoader_helloLanguages___Z4ck li:nth-child(4) { animation-delay: 9s; }
+.GreetLoader_helloLanguages___Z4ck li:nth-child(5) { animation-delay: 12s; }
 
 @keyframes GreetLoader_slideInOut__PcHdV {
   0% { transform: translateY(100%); opacity: 0; }

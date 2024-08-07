@@ -16,10 +16,10 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Set a timer to hide the loader after 3 seconds
+    // Set a timer to hide the loader after the animation completes
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 2000); // Adjust the duration as needed
+    }, 3200); // 5 languages * 3s each = 15s
 
     // Clean up the timer if the component unmounts
     return () => clearTimeout(timer);

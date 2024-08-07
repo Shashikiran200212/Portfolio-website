@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,300..700;1,300..700&display=swap');
 
 .container {
   background-color: rgb(0, 3, 25);
   color: white;
   font-family: "Familjen Grotesk", Arial, sans-serif;
-  font-weight: 300; 
-  
+  font-weight: 300;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,9 +30,15 @@
   margin: 0;
   position: absolute;
   opacity: 0;
-  animation: slideInOut 3s infinite;
-  font-weight: 300; 
+  animation: slideInOut 3s linear forwards;
+  font-weight: 300;
 }
+
+.helloLanguages li:nth-child(1) { animation-delay: 0s; }
+.helloLanguages li:nth-child(2) { animation-delay: 3s; }
+.helloLanguages li:nth-child(3) { animation-delay: 6s; }
+.helloLanguages li:nth-child(4) { animation-delay: 9s; }
+.helloLanguages li:nth-child(5) { animation-delay: 12s; }
 
 @keyframes slideInOut {
   0% { transform: translateY(100%); opacity: 0; }

@@ -1600,6 +1600,9 @@ video {
 .gap-y-20 {
   row-gap: 5rem;
 }
+.gap-y-10 {
+  row-gap: 2.5rem;
+}
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.25rem * var(--tw-space-x-reverse));
@@ -1978,9 +1981,6 @@ video {
 }
 .font-semibold {
   font-weight: 600;
-}
-.font-thin {
-  font-weight: 100;
 }
 .uppercase {
   text-transform: uppercase;
