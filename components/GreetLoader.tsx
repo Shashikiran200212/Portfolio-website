@@ -1,6 +1,6 @@
 import styles from './GreetLoader.module.css'; // Adjust the path as needed
 
-const HelloLanguages = () => {
+const GreetLoader = () => {
   return (
     <div className={styles.container}>
       <ul className={styles.helloLanguages}>
@@ -15,4 +15,4 @@ const HelloLanguages = () => {
   );
 };
 
-export default HelloLanguages;
+export default GreetLoader;
