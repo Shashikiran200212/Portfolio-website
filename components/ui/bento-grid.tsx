@@ -61,12 +61,13 @@ export const BentoGridItem = ({
   return (    
     <div
       className={cn(
-        "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
+        "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4 cursor-default",
         className
       )}
       style={{
         background: "rgb(22,26,66)",
-        backgroundColor: "linear-gradient(90deg, rgba(22,26,66,1) 0%, rgba(22,26,66,1) 52%)"
+        backgroundColor: "linear-gradient(90deg, rgba(22,26,66,1) 0%, rgba(22,26,66,1) 52%)",
+        userSelect: "none" // Ensure text is not selectable
       }}
     >
       

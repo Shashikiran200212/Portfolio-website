@@ -1540,8 +1540,17 @@ video {
 .\!cursor-pointer {
   cursor: pointer !important;
 }
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
 .cursor-pointer {
   cursor: pointer;
+}
+.cursor-none {
+  cursor: none;
+}
+.cursor-default {
+  cursor: default;
 }
 .select-none {
   user-select: none;
@@ -1596,9 +1605,6 @@ video {
 }
 .gap-x-24 {
   column-gap: 6rem;
-}
-.gap-y-20 {
-  row-gap: 5rem;
 }
 .gap-y-10 {
   row-gap: 2.5rem;
