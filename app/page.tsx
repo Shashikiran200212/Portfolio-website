@@ -10,7 +10,6 @@ import Slider from "@/components/Slider";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import { navItems } from "@/data";
-import GreetLoader from "@/components/GreetLoader";
 
 const Page = () => {
   return (
