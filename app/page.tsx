@@ -13,7 +13,7 @@ import { navItems } from "@/data";
 import GreetLoader from "@/components/GreetLoader";
 
 export default function Home() {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     // Set a timer to hide the loader after 3 seconds
