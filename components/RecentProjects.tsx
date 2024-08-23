@@ -11,51 +11,45 @@ const RecentProjects = () => {
             <span className='text-purple'>recent projects</span>
         </h1>
 
-        <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-10 md:gap-y-15 mt-10'> 
-            {projects.map ((({id, title, des, img, iconLists, link})  =>(
-                <div key={id} className='sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 p-4 mt-10'>
+            {projects.map(({id, title, des, media, iconLists, link}) => (
+                <div key={id} className='flex flex-col items-center h-auto p-4'>
                     <PinContainer title={link} href={link}>
-                        <div className='relative flex items-center justify-center sm:w-[570px] w-[80vw] sm:h-[40vh] h-[30vh] overflow-hidden mb-10'>
-                            <div className='relative w-full h-full lg:rounded-3xl bg-[#13162d]'>
-                                <img src="/bg.png" alt="bg-img" />
+                        <div className='relative flex items-center justify-center  w-[70vw] h-[20vh] sm:w-[350px] sm:h-[20vh] overflow-hidden mb-4'>
+                            <div className='relative w-full h-full rounded-xl bg-[#13162d]'>
+                                {media?.type === 'video' ? (
+                                    <video src={media.url} className='object-cover w-full h-full' autoPlay loop muted />
+                                ) : (
+                                    <img src={media?.url || "/bg.png"} alt={title} className='object-cover w-full h-full' />
+                                )}
                             </div>
-                            {id > 1 && (
-                                <img src={img} alt={title}  className='z-10 relative'/>
-                            )}
-                             {id === 1 && (
-                                        <img src={img} alt={title}  className='z-10 relative  -mb-60'/>
-            
-                                    )}
-
-                            
                         </div>
-
-                               
-                        <h1 className='font-bold lg:text-2xl md:text-xl text-base line-clamp-1'>
+                       
+                        <h1 className='font-bold lg:text-xl md:text-lg text-sm line-clamp-1'>
                             {title}
                         </h1>
 
-                        <p className=' lg:font-normal font-light text-sm line-clamp-2'>
+                        <p className='lg:font-normal font-light text-sm line-clamp-2'>
                             {des}
                         </p>
 
-                        <div className='flex items-center justify-between mt-7 mb-3'>
+                        <div className='flex items-center justify-between mt-4 mb-2'>
                             <div className='flex items-center'>
-                                {iconLists.map((icon, index) =>(
-                                    <div key={icon} className='border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center' style={{transform:`translateX(-${5 * index * 2}px)`}}>
-                                        <img src={icon} alt="icon" className='p-2' />
+                                {iconLists.map((icon, index) => (
+                                    <div key={icon} className='border border-white/[0.2] rounded-full bg-black lg:w-8 lg:h-8 w-6 h-6 flex justify-center items-center' style={{transform:`translateX(-${5 * index}px)`}}>
+                                        <img src={icon} alt="icon" className='p-1' />
                                     </div>
                                 ))}
                             </div>
 
-                            <div className='flex justify-center items-center'>
-                                <p className='flex  md:text-xs text-sm'>Check Live Site</p>
-                                <FaLocationArrow className='ms-3 size-3.5 -left-2' color='#cbacf9'/>
+                            <div className='flex items-center'>
+                                <p className='text-sm'>Check Live Site</p>
+                                <FaLocationArrow className='ms-2 size-3' color='#cbacf9'/>
                             </div>
                         </div>
                     </PinContainer>
                 </div>
-            )))}
+            ))}
         </div>
     </div>
   )
