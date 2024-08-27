@@ -135,6 +135,15 @@ export const projects = [
     iconLists: [ "/html.svg","/css.svg  ", "./javascript.svg", "/vercel.png", "/figma.svg", "/gsap.svg"],
     link: "https://shashikiran-carrousel.vercel.app/",
   },
+
+  {
+    id: 8,
+    title: "3D Movie Showcase Website",
+    des: "The 3D slider allows users to smoothly navigate through featured movies, showcasing both modern design principles and cutting-edge web technologies.",
+    media: { type: 'video', url: '/ms.mp4' },
+    iconLists: [ "/html.svg","/css.svg  ", "./ts.svg", "/vercel.png", "/figma.svg", "/gsap.svg"],
+    link: "https://movie-website-pi-liard.vercel.app/",
+  },
 ];
 
 
