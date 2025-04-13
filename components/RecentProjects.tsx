@@ -11,7 +11,7 @@ const RecentProjects = () => {
             <span className='text-purple'>recent projects</span>
         </h1>
 
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 p-4 mt-10'>
+        <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-28 md:gap-24 p-4 mt-10'>
             {projects.map(({id, title, des, media, iconLists, link}) => (
                 <div key={id} className='flex flex-col items-center h-auto p-4'>
                     <PinContainer title={link} href={link}>

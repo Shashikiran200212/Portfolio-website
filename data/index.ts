@@ -91,7 +91,7 @@ export const projects = [
     title: "Skin Disease Prediction System",
     des: "A diagnostic tool that identifies skin diseases by analyzing thermoscopic images with Convolutional Neural Networks.",
     media: { type: 'image', url: '/sn.png' },
-    iconLists: ["/python1.svg", "/gradio.svg", "/tensorflow.svg", "/flask.svg", "/sklearn.svg", "/keras.svg"],
+    iconLists: ["/python1.svg", "/gradio.svg", "/tensorflow.svg", "/flask.svg", "/sklearn.svg"],
     link: "https://github.com/Shashikiran200212/skin-disease-prediction",
   },
   {
