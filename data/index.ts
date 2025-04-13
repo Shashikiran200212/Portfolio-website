@@ -75,7 +75,7 @@ export const projects = [
     title: "Snapgram",
     des: "A social media web app built with React, Tailwind, Appwrite, and ShadCN for sharing and discovering creative content.",
     media: { type: 'image', url: '/sg1.png' },
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/app.svg", "/vite.svg", "/figma.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/app.svg","/figma.svg"],
     link: "https://snapgram-seven-sigma.vercel.app/",
   },
   {
