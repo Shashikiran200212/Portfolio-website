@@ -70,16 +70,9 @@ export const gridItems = [
 ];
 
 export const projects = [
+  
   {
     id: 1,
-    title: "Snapgram",
-    des: "A social media web app built with React, Tailwind, Appwrite, and ShadCN for sharing and discovering creative content.",
-    media: { type: 'image', url: '/sg1.png' },
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/app.svg","/figma.svg"],
-    link: "https://snapgram-seven-sigma.vercel.app/",
-  },
-  {
-    id: 2,
     title: "Fake News Analysis System",
     des: "A machine learning project that determines the authenticity of news articles using machine learning algorithms.",
     media: { type: 'image', url: '/fn.png' },
@@ -87,7 +80,7 @@ export const projects = [
     link: "https://github.com/Shashikiran200212/Fake-news-analysis-",
   },
   {
-    id: 3,
+    id: 2,
     title: "Skin Disease Prediction System",
     des: "A diagnostic tool that identifies skin diseases by analyzing thermoscopic images with Convolutional Neural Networks.",
     media: { type: 'image', url: '/sn.png' },
@@ -95,7 +88,7 @@ export const projects = [
     link: "https://github.com/Shashikiran200212/skin-disease-prediction",
   },
   {
-    id: 4,
+    id: 3,
     title: "Blog Site",
     des: "A website that enables users to write, edit, and delete their thoughts as blogs, built with HTML, CSS, JavaScript, and MongoDB.",
     media: { type: 'image', url: '/blog.png' },
@@ -103,7 +96,7 @@ export const projects = [
     link: "https://github.com/Shashikiran200212/NOSQLBlog",
   },
   {
-    id: 5,
+    id: 4,
     title: "Nothing",
     des: "A minimalist website designed to highlight the elegance of simplicity, built with React, Next.js, Tailwind CSS and hosted on Vercel.",
     media: { type: 'image', url: '/nh.png' },
@@ -111,7 +104,7 @@ export const projects = [
     link: "https://nothing-pi.vercel.app/",
   },
   {
-    id: 6,
+    id: 5,
     title: "Hype N Harmony",
     des: "Hype N Harmony is a leading event management company specializing in crafting unforgettable experiences. I designed a minimalist yet elegant website to showcase their services and expertise. The site features a clean user interface with intuitive navigation and responsive design, ensuring a seamless experience across all devices.",
     media: { type: 'image', url: '/hnh.png' },
@@ -119,7 +112,7 @@ export const projects = [
     link: "https://hype-n-harmony-events.vercel.app/",
   },
   {
-    id: 7,
+    id: 6,
     title: "Porsche Experience Website",
     des: "A modern, immersive Porsche experience built with Next.js, GSAP, and Tailwind CSS, hosted on Vercel. This portfolio project showcases dynamic animations and interactive elements, creating a seamless and engaging user experience. It features smooth scrolling effects, responsive design, and high-performance transitions that highlight Porsche's luxury vehicles and brand story.",
     media: { type: 'image', url: '/po.png' },
@@ -128,7 +121,7 @@ export const projects = [
   },
 
   {
-    id: 8,
+    id: 7,
     title: "Dynamic GSAP Carousel",
     des: "An interactive and visually striking carousel component created with GSAP and Tailwind CSS. This feature-rich carousel enhances user engagement through smooth, high-performance animations and transitions.",
     media: { type: 'video', url: '/gc.mp4' },
@@ -144,6 +137,14 @@ export const projects = [
     iconLists: [ "/html.svg","/css.svg  ", "./ts.svg", "/vercel.png", "/figma.svg", "/gsap.svg"],
     link: "https://movie-website-pi-liard.vercel.app/",
   },
+  {
+    id: 9,
+    title: "Snapgram",
+    des: "A social media web app built with React, Tailwind, Appwrite, and ShadCN for sharing and discovering creative content.",
+    media: { type: 'image', url: '/sg1.png' },
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/app.svg","/figma.svg"],
+    link: "https://snapgram-seven-sigma.vercel.app/",
+  }
 ];
 
 
