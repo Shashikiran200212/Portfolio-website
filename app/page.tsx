@@ -1,17 +1,17 @@
-"use client"
+"use client";
 
 import React, { useState, useEffect } from 'react';
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
-import Grid from "@/components/Grid";
+import dynamic from "next/dynamic";
+const Grid = dynamic(() => import("@/components/Grid"), { ssr: false });
 import Hero from "@/components/Hero";
 import Slider from "@/components/Slider";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import { navItems } from "@/data";
 import GreetLoader from "@/components/GreetLoader";
-
 export default function Home() {
   const [loading, setLoading] = useState(true);
 
