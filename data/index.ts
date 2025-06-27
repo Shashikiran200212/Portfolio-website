@@ -70,9 +70,17 @@ export const gridItems = [
 ];
 
 export const projects = [
-  
   {
     id: 1,
+    title: "UIverse",
+    des: "A dynamic React-based UI component sharing platform with Supabase integration for user authentication, likes, saves, and real-time updates. Implemented syntax highlighting, preview rendering, and responsive modals for an interactive developer experience.",
+    media: { type: 'image', url: '/uiv.png' },
+    iconLists: ["/re.svg", "/tail.svg", "/vercel.png", "base44.png"],
+    link: "https://uiverse-tau.vercel.app/",
+  },
+  
+  {
+    id: 2,
     title: "Fake News Analysis System",
     des: "A machine learning project that determines the authenticity of news articles using machine learning algorithms.",
     media: { type: 'image', url: '/fn.png' },
@@ -80,7 +88,7 @@ export const projects = [
     link: "https://github.com/Shashikiran200212/Fake-news-analysis-",
   },
   {
-    id: 2,
+    id: 3,
     title: "Skin Disease Prediction System",
     des: "A diagnostic tool that identifies skin diseases by analyzing thermoscopic images with Convolutional Neural Networks.",
     media: { type: 'image', url: '/sn.png' },
@@ -88,7 +96,7 @@ export const projects = [
     link: "https://github.com/Shashikiran200212/skin-disease-prediction",
   },
   {
-    id: 3,
+    id: 4,
     title: "Blog Site",
     des: "A website that enables users to write, edit, and delete their thoughts as blogs, built with HTML, CSS, JavaScript, and MongoDB.",
     media: { type: 'image', url: '/blog.png' },
@@ -96,7 +104,7 @@ export const projects = [
     link: "https://github.com/Shashikiran200212/NOSQLBlog",
   },
   {
-    id: 4,
+    id: 5,
     title: "Nothing",
     des: "A minimalist website designed to highlight the elegance of simplicity, built with React, Next.js, Tailwind CSS and hosted on Vercel.",
     media: { type: 'image', url: '/nh.png' },
@@ -104,7 +112,7 @@ export const projects = [
     link: "https://nothing-pi.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Hype N Harmony",
     des: "Hype N Harmony is a leading event management company specializing in crafting unforgettable experiences. I designed a minimalist yet elegant website to showcase their services and expertise. The site features a clean user interface with intuitive navigation and responsive design, ensuring a seamless experience across all devices.",
     media: { type: 'image', url: '/hnh.png' },
@@ -112,7 +120,7 @@ export const projects = [
     link: "https://hype-n-harmony-events.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Porsche Experience Website",
     des: "A modern, immersive Porsche experience built with Next.js, GSAP, and Tailwind CSS, hosted on Vercel. This portfolio project showcases dynamic animations and interactive elements, creating a seamless and engaging user experience. It features smooth scrolling effects, responsive design, and high-performance transitions that highlight Porsche's luxury vehicles and brand story.",
     media: { type: 'image', url: '/po.png' },
@@ -121,7 +129,7 @@ export const projects = [
   },
 
   {
-    id: 7,
+    id: 8,
     title: "Dynamic GSAP Carousel",
     des: "An interactive and visually striking carousel component created with GSAP and Tailwind CSS. This feature-rich carousel enhances user engagement through smooth, high-performance animations and transitions.",
     media: { type: 'video', url: '/gc.mp4' },
@@ -130,7 +138,7 @@ export const projects = [
   },
 
   {
-    id: 8,
+    id: 9,
     title: "3D Movie Showcase Website",
     des: "The 3D slider allows users to smoothly navigate through featured movies, showcasing both modern design principles and cutting-edge web technologies.",
     media: { type: 'video', url: '/ms.mp4' },
@@ -138,7 +146,7 @@ export const projects = [
     link: "https://movie-website-pi-liard.vercel.app/",
   },
   {
-    id: 9,
+    id: 10,
     title: "Snapgram",
     des: "A social media web app built with React, Tailwind, Appwrite, and ShadCN for sharing and discovering creative content.",
     media: { type: 'image', url: '/sg1.png' },

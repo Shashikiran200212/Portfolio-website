@@ -5,6 +5,12 @@
       "static/chunks/_app-pages-browser_components_Grid_tsx.js"
     ]
   },
+  "components/ui/bento-grid.tsx -> react-lottie": {
+    "id": "components/ui/bento-grid.tsx -> react-lottie",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_react-lottie_dist_index_js.js"
+    ]
+  },
   "components/ui/gridGlobe.tsx -> ../ui/globe": {
     "id": "components/ui/gridGlobe.tsx -> ../ui/globe",
     "files": [
